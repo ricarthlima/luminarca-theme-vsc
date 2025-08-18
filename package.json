@@ -1,0 +1,50 @@
+{
+  "name": "luminarca-theme",
+  "displayName": "Luminarca",
+  "description": "O tema oficial da Luminarca.",
+  "version": "1.0.0",
+  "publisher": "Luminarca",
+  "bugs": {
+    "url": "https://github.com/Luminrc-Theme/visual-studio-code/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Luminrc-Theme/visual-studio-code"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "luminarca",
+    "luminarca Theme",
+    "luminarcaTheme",
+    "tema luminarca",
+    "ricarth",
+    "Code",
+    "blue"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#261c1e",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.59.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Luminarca (dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/luminarca-dark.json"
+      },
+      {
+        "label": "Luminarca (light)",
+        "uiTheme": "vs",
+        "path": "./themes/luminarca-light.json"
+      }
+    ]
+  }
+}
