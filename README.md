@@ -1,4 +1,5 @@
-# Luminarca — Tema para VS Code
+![banner-luminarca](https://raw.githubusercontent.com/ricarthlima/luminarca-theme-vsc/refs/heads/main/assets/banner.png)
+# Sobre o tema da Luminarca 🩵
 
 Cores frescas, contraste confortável e destaque semântico pensado para produtividade. Inspirado na identidade da Luminarca: cianos/azuis com acentos laranja.
 
@@ -22,9 +23,9 @@ Cores frescas, contraste confortável e destaque semântico pensado para produti
 
 **Ricarth Lima**
 
----
 
-# Luminarca — VS Code Theme
+
+# English version
 
 Fresh colors, comfy contrast, and semantic emphasis built for focus. Luminarca identity: cyan/blue with orange accents.
 
