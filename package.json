@@ -2,29 +2,32 @@
   "name": "luminarca-theme",
   "displayName": "Luminarca",
   "description": "O tema oficial da Luminarca.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "Luminarca",
   "bugs": {
-    "url": "https://github.com/Luminrc-Theme/visual-studio-code/issues"
+    "url": "https://github.com/ricarthlima/luminarca-theme-vsc/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Luminrc-Theme/visual-studio-code"
+    "url": "https://github.com/ricarthlima/luminarca-theme-vsc"
   },
   "keywords": [
     "theme",
     "dark",
+    "light",
     "luminarca",
     "luminarca Theme",
     "luminarcaTheme",
     "tema luminarca",
     "ricarth",
+    "ricarth lima",
     "Code",
-    "blue"
+    "blue",
+    "orange"
   ],
   "icon": "icon.png",
   "galleryBanner": {
-    "color": "#261c1e",
+    "color": "#111821",
     "theme": "dark"
   },
   "engines": {
@@ -36,12 +39,17 @@
   "contributes": {
     "themes": [
       {
-        "label": "Luminarca (dark)",
+        "label": "Luminarca (Crepúsculo)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/luminarca-twilight.json"
+      },
+      {
+        "label": "Luminarca (Trevas)",
         "uiTheme": "vs-dark",
         "path": "./themes/luminarca-dark.json"
       },
       {
-        "label": "Luminarca (light)",
+        "label": "Luminarca (Luz)",
         "uiTheme": "vs",
         "path": "./themes/luminarca-light.json"
       }
